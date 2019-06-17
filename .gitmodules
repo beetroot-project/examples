@@ -1,0 +1,3 @@
+[submodule "cmake/beetroot"]
+	path = cmake/beetroot
+	url = git@github.com:beetroot-project/beetroot.git

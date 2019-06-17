@@ -1,0 +1,4 @@
+const char* getVersion()
+{
+    return "@MyProj_VERSION@";
+}
