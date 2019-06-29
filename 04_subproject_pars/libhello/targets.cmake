@@ -4,7 +4,7 @@ set(TARGET_PARAMETERS
    WHO	SCALAR	STRING	"Jupiter"
 )
 
-function(generate_targets TEMPLATE_NAME)
+function(generate_targets TARGET_NAME TEMPLATE_NAME)
    add_library(${TARGET_NAME} "${CMAKE_CURRENT_SOURCE_DIR}/source/libhello.cpp")
    target_sources(${TARGET_NAME} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include/libhello.h") #For better IDE integration
    
