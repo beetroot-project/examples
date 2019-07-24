@@ -1,0 +1,4 @@
+#include "MyProject/core/Constants.h"
+
+unsigned const MYPROJECT_VERSION_MAJOR = @VERSION_MAJOR@;
+unsigned const MYPROJECT_VERSION_MINOR = @VERSION_MINOR@;
