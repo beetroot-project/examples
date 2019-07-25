@@ -2,7 +2,7 @@ set(ENUM_TARGETS constants_configure constants_tu_configure)
 
 include_target_parameters_of(VERSION) #VERSIONS
 
-set(TEMPLATE_OPTIONS
+set(FILE_OPTIONS
 	NO_TARGETS
 )
 

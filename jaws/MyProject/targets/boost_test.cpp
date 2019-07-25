@@ -1,6 +1,6 @@
 set(ENUM_TARGETS Boost::unit_test)
 
-set(TEMPLATE_OPTIONS
+set(FILE_OPTIONS
 	NICE_NAME "Boost Unit test library"
 	DONT_LINK_TO_DEPENDEE
 	NO_TARGETS

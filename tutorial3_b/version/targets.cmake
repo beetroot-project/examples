@@ -5,7 +5,7 @@ set(TARGET_PARAMETERS
 	Tutorial_VERSION_MINOR	SCALAR	INTEGER "0" 
 )
 
-set(TEMPLATE_OPTIONS NO_TARGETS)
+set(FILE_OPTIONS NO_TARGETS)
 
 function(apply_dependency_to_target DEPENDEE_TARGET_NAME OUR_TARGET_NAME)
 # configure a header file to pass some of the CMake settings
