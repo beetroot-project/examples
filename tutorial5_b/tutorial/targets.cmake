@@ -1,6 +1,6 @@
 set(ENUM_TEMPLATES TUTORIAL2)
 
-include_target_parameters_of(VERSION )
+include_build_parameters_of(VERSION )
 
 set(BUILD_PARAMETERS
 	USE_MYMATH	SCALAR BOOL 0

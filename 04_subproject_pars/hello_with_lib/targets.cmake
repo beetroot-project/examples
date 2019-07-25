@@ -1,6 +1,6 @@
 set(ENUM_TEMPLATES HELLO_WITH_LIB)
 
-include_target_parameters_of(LIBHELLO
+include_build_parameters_of(LIBHELLO
 	INCLUDE_ONLY
 		WHO
 ) #Implicitly imports only WHO. See API reference to learn about all the options

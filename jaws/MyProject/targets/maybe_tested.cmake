@@ -2,8 +2,8 @@ set(ENUM_TEMPLATES MAYBE_TESTED)
 
 #message(STATUS "TARGET_NAME: ${TARGET_NAME}")
 
-include_target_parameters_of("${TARGET_NAME}")
-include_features_of("${TARGET_NAME}")
+include_build_parameters_of("${TARGET_NAME}")
+include_build_features_of("${TARGET_NAME}")
 include_link_parameters_of("${TARGET_NAME}")
 
 set(BUILD_PARAMETERS 

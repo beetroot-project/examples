@@ -1,6 +1,6 @@
 set(ENUM_TARGETS Tutorial)
 
-include_target_parameters_of(VERSION )
+include_build_parameters_of(VERSION )
 
 function(declare_dependencies TEMPLATE_NAME)
    build_target(VERSION)

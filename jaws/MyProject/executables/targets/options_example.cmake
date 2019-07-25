@@ -1,6 +1,6 @@
 set(ENUM_TEMPLATES OPTIONS_EXAMPLE)
 
-include_target_parameters_of(VERSION) #VERSIONS
+include_build_parameters_of(VERSION) #VERSIONS
 
 function(declare_dependencies TEMPLATE_NAME)
    build_target(MAYBE_TESTED 
