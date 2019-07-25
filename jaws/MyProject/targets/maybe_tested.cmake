@@ -6,7 +6,7 @@ include_target_parameters_of("${TARGET_NAME}")
 include_features_of("${TARGET_NAME}")
 include_link_parameters_of("${TARGET_NAME}")
 
-set(TARGET_PARAMETERS 
+set(BUILD_PARAMETERS 
 	TARGET_NAME	SCALAR	STRING ""
 	UNIT_TEST	SCALAR	STRING ""
 )

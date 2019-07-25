@@ -2,7 +2,7 @@ set(ENUM_TARGETS MyProject)
 
 include_target_parameters_of(VERSION) #VERSIONS
 
-set(TARGET_PARAMETERS 
+set(BUILD_PARAMETERS 
 	GUI OPTION BOOL "OFF"
 )
 
